@@ -1,5 +1,5 @@
 # Budget_Tracker
-  [![GitHub license](https://img.shields.io/badge/license--blue.svg)](https://github.com/KenWilliams74/budget_tracker)
+  [![GitHub license](https://img.shields.io/badge/budget--blue.svg)](https://github.com/KenWilliams74/budget_tracker)
   
   ## Description
   
@@ -49,6 +49,6 @@
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact [KenWilliams74](undefined) directly at kenwilliams74@gmail.com.
+  If you have any questions about the repo, open an issue or contact [KenWilliams74](https://github.com/KenWilliams74) directly at kenwilliams74@gmail.com.
   
   
