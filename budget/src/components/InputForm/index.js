@@ -28,9 +28,10 @@ class InputForm extends Component {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <>
-        <div>
+        <div className="jumbotron text-center alert-success">
           <h1>Budget Tracker</h1>
-          <h6>Total Expenses: ${this.state.itemTotal}</h6>
+        </div>
+        <div className="container text-center">
           <form className="form" onSubmit={this.handleFormSubmit}>
             <input
               name="items"
@@ -45,9 +46,15 @@ class InputForm extends Component {
             <button type="submit">Submit</button>
           </form>
         </div>
-        {this.state.itemName.length > 0 &&
-          <Table itemName = {this.state.itemName} itemAmount={this.state.itemAmount} />
-        }
+        <div className="container text-right">
+          <h6>Total Expenses: ${this.state.itemTotal.toFixed(2)}</h6>
+        </div>
+        <div className="container alert-dark">
+          {this.state.itemName.length > 0 &&
+            <Table itemName={this.state.itemName} itemAmount={this.state.itemAmount} />
+          }
+        </div>
+
       </>
     );
   }

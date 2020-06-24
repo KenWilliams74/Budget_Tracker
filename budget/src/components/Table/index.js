@@ -3,14 +3,16 @@ import React from "react";
 function Table(props) {
     return (
         <div>
-            <tbody>
+            <div>
                 {props.itemName.map((item, index) => (
                     <div>
-                        <li>Item: {item}</li>
-                        <li>Amount: ${props.itemAmount[index].toFixed(2)}</li>
+                        <li className="list-group-item">
+                            <p>Item: {item} </p>
+                            <p>Amount: ${props.itemAmount[index].toFixed(2)}</p>
+                        </li>
                     </div>
                 ))}
-            </tbody>
+            </div>
         </div>
     );
 }
