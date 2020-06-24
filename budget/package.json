@@ -2,6 +2,7 @@
   "name": "budget",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://kenwilliams74.github.io/Budget_Tracker",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
